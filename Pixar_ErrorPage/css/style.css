@@ -4,25 +4,36 @@
     box-sizing: border-box;
 }
 
-.navbar{
+html,body{
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.7em;
+}
+
+#navbar{
     margin: 25px;
     padding: 0;
     overflow: auto;
 }
 
-.navbar li{
+#navbar li{
     list-style: none;
     float: right;
 }
 
-.navbar li a{
+#navbar li a{
     display: block;
     color:black;
     text-decoration: none;
     padding: 15px 20px;
 }
 
-.navbar li a:hover{
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+#navbar ul li a:hover{
     background-color:white;
     color: silver;
 }
@@ -40,18 +51,47 @@
 
 }
 
-img{
-    max-width: 304px;
-    max-height: 410px;
-    float: left;
-    width: 50%;
+img.logo{
+
+    /* position: sticky;
+    top:50px;
+    left: 50px; */
+    max-width: 129px;
+    max-height: 26px;
+}
+
+img.pixar-error{
+    padding-top: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+    position: absolute;
+    left: 30%;
+    top: 20%;
+    max-width: 229px;
+    max-height: 310px;
+    border: 0;
+    display: block;
+    
+    
 }
 
 .Empty-block{
-
+    margin: 0;
+    max-width: 528px;
+    max-height: 109px;
+    padding-bottom: 11.1111%;
+    position: relative !important;
+    left: 50%;
+    background-color: black;
+    display: block;
+    padding-top: 0;
+    padding-left: 17px;
+    padding-right: 17px;
+    
 }
 
-#Error-message{
+.Error-message{
+    text-align: center;
     float: right;
     width: 50%;
 
