@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    margin: 25px;
+    padding: 0;
+    overflow: auto;
+}
+
+.navbar li{
+    list-style: none;
+    float: right;
+}
+
+.navbar li a{
+    display: block;
+    color:black;
+    text-decoration: none;
+    padding: 15px 20px;
+}
+
+.navbar li a:hover{
+    background-color:white;
+    color: silver;
+}
+
+.Main-error{
+    padding: 80px 142px;
+    font-family: futura-pt;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 22px;
+    letter-spacing: 0em;
+    line-height: 1.7em;
+    text-transform: none;
+    color: rgba(29,29,29,.7); 
+
+}
+
+img{
+    max-width: 304px;
+    max-height: 410px;
+    float: left;
+    width: 50%;
+}
+
+.Empty-block{
+
+}
+
+#Error-message{
+    float: right;
+    width: 50%;
+
+}
+
+.Social-network{
+
+}
+
+.site-footer-links{
+
+}
